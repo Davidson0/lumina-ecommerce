@@ -7,8 +7,12 @@ A highly polished, premium e-commerce simulation built with **Next.js (App Route
 *   **Next.js App Router Architecture:** Utilizes the latest Next.js paradigms including Server Components and dynamic routing (`/product/[id]`) for optimal performance and SEO.
 *   **Custom Global State Management:** Implements a robust Shopping Cart using React Context API (`CartContext`). Features include adding/removing items, updating quantities, and total price calculation.
 *   **Persistent Data:** Cart state is synchronized with `localStorage` to ensure data persists across browser reloads.
+*   **Multi-Language Support (i18n):** Full EN/TR language switching powered by a custom dictionary system — instant, no page reload.
+*   **Live Currency Conversion (USD ↔ TRY):** Real-time price conversion at 1 USD = 45 TRY across every component simultaneously, including the cart drawer and product detail pages.
+*   **Category Filtering:** Client-side product filtering with smooth Framer Motion layout animations.
+*   **Toast Notifications:** Non-intrusive, animated toast system for cart feedback — no jarring popups.
 *   **Checkout Simulation:** A fully animated, mock checkout flow demonstrating asynchronous state handling (loading spinners, success redirects, and randomized order number generation).
-*   **Premium UI & Glassmorphism:** Custom CSS Modules featuring Apple-inspired aesthetics—dark mode by default, large typography (`clamp`), blur backdrops, and hover micro-interactions.
+*   **Premium UI & Glassmorphism:** Custom CSS Modules featuring Apple-inspired aesthetics — dark mode by default, large typography (`clamp`), blur backdrops, and hover micro-interactions.
 *   **Framer Motion Animations:** Smooth page transitions, spring-animated slide-out cart drawers, and component mount animations.
 
 ## 🛠 Tech Stack
