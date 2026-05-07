@@ -1,0 +1,82 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: radial-gradient(circle at center, rgba(41, 151, 255, 0.15) 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+.subtitle {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  max-width: 600px;
+  margin: 1.5rem auto 2.5rem;
+  line-height: 1.4;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.productsSection {
+  padding: 8rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.productsHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filterBtn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filterBtn:hover {
+  background: var(--surface-hover);
+  color: var(--foreground);
+}
+
+.activeFilter {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.activeFilter:hover {
+  background: var(--primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
